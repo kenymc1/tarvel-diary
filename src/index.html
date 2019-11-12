@@ -4,11 +4,268 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="/src/styles/main.scss">
   <title>Destination</title>
+
 </head>
 <body>
-  <h1>hello world</h1>
+  <!--------------------------------------- nav ----------------------------------------->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+      <a class="navbar-brand" href="#">
+          <img src="/src/img/DigitalStars2.png" class="d-inline-block align-top">
+        </a>
 
-  
+        <!---------------------------------- toggler ----------------------------------------->
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!---------------------------------- menu ----------------------------------------->
+
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">ABOUT</a>
+          <a class="nav-item nav-link" href="#">DIARY</a>
+          <a class="nav-item nav-link" href="#">CONTACT</a>
+        </div>
+      </div>
+    </nav>
+
+    <!------------------------------------- hero image --------------------------------------->
+    <section id="paris">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="hero">
+            <img src="/src/img/paris.png" >
+            <div class="centered"><h1><u>Location</u></h1></div>
+                <p class="sub">Travel Journal</p>
+                <img class="logo"src="/src/img/location.png">
+            </div>
+          
+           
+          
+            <div class="profile-img">
+              <img  class="pro" src="/src/img/profile.png" alt="">
+                <div class="user-block">
+                <h4>Cindy Singh</h4>
+                <p>Los Angles Ca.</p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!------------------------------------- about --------------------------------------->
+    <section id="about">
+      <div class="about">
+        <div class="text-center">
+          <h1>ABOUT US</h1>
+          <p>In labore minim culpa elit enim veniam excepteur Veniam veniam est laboris id. Adipisicing sint excepteur ad voluptate. Laborum duis adipisicing adipisicing quis qui exercitation do aliqua proident enim elit. Voluptate officia laboris pariatur velit in eu.cillum dolor ea. Mollit officia mollit ex excepteur est fugiat ad officia ex. Nisi consequat sint proident proident sunt dolor deserunt duis esse ea fugiat velit deserunt.</p>
+          <div class="info">
+            <div>
+              <h1>Relive Your Adventure In Style</h1>
+              
+            <div class="container">
+                <div class="row">
+              
+                  <div class="col-md-4"> 
+                    <img src="img/icon-locaties.png" class="icon">
+                    <h3>Geo Tag Your Lacation</h3>
+                    <p>Id cillum sint velit eiusmod ipsum ullamco et ut dolor sint voluptate mollit ullamco eu. Eu occaecat non voluptate aliqua ex culpa deserunt cillum amet consequat. Ullamco exercitation culpa duis incididunt mollit magna irure exercitation ipsum ut do aliquip nostr </p>
+                  </div>
+                  
+                  <div class="col-md-4">
+                      <img src="img/icon-verslagen.png" class="icon">
+                      <h3>Log Your Aventures</h3>
+                      <p>Id cillum sint velit eiusmod ipsum ullamco et ut dolor sint voluptate mollit ullamco eu. Eu occaecat non voluptate aliqua ex culpa deserunt cillum amet consequat. Ullamco exercitation culpa duis incididunt mollit magna irure exercitation ipsum ut do aliquip nostrud et.</p>
+                    </div>
+                  
+                    <div class=col-md-4>
+                        <img src="img/icon-photos.png" class="icon">
+                        <h3>Add Images To Your Entries</h3>
+                        <p>Id cillum sint velit eiusmod ipsum ullamco et ut dolor sint voluptate mollit ullamco eu. Eu occaecat non voluptate aliqua ex culpa deserunt cillum amet consequat. Ullamco exercitation culpa duis incididunt mollit magna irure exercitation ipsum ut do aliquip nostrud et. Aliquip m</p>
+                      </div>
+                </div>
+            </div>
+              
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!------------------------------------- cards --------------------------------------->
+  <section id="cards">
+      <div class="container-fluid ">
+        <h1 class="text-center">Locations</h1>
+
+          <div class="row offset-1">
+            <div class="card">
+               <div class="card__image-container">
+                 <img class="card__image" src="/src/img/cities_0003_Brazil.png" alt="">
+              </div>
+                
+                <svg class="card__svg" viewBox="0 0 800 500">
+            
+                  <path d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500" stroke="transparent" fill="#DFE8EC"/>
+                  <path class="card__line" d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400" stroke="pink" stroke-width="3" fill="transparent"/>
+                </svg>
+              
+               <div class="card__content">
+                 <h1 class="card__title">Brazil</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolor praesentium at quod autem omnis, amet eaque unde perspiciatis adipisci possimus quam facere illo et quisquam quia earum nesciunt porro.</p>
+              </div>
+            </div>
+            
+            <div class="card">
+               <div class="card__image-container">
+                 <img class="card__image" src="/src/img/cities_0004_Bali.png" alt="">
+              </div>
+                
+                <svg class="card__svg" viewBox="0 0 800 500">
+            
+                  <path d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500" stroke="transparent" fill="#DFE8EC"/>
+                  <path class="card__line" d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400" stroke="pink" stroke-width="3" fill="transparent"/>
+                </svg>
+              
+               <div class="card__content">
+                 <h1 class="card__title">Bali</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolor praesentium at quod autem omnis, amet eaque unde perspiciatis adipisci possimus quam facere illo et quisquam quia earum nesciunt porro.</p>
+              </div>
+            </div>
+            
+            <div class="card">
+               <div class="card__image-container">
+                 <img class="card__image" src="/src/img/cities_0005_Puerto-Rico.png" alt="">
+              </div>
+                
+                <svg class="card__svg" viewBox="0 0 800 500">
+            
+                  <path d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500" stroke="transparent" fill="#DFE8EC"/>
+                  <path class="card__line" d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400" stroke="pink" stroke-width="3" fill="transparent"/>
+                </svg>
+              
+               <div class="card__content">
+                 <h1 class="card__title">Puerto Rico</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolor praesentium at quod autem omnis, amet eaque unde perspiciatis adipisci possimus quam facere illo et quisquam quia earum nesciunt porro.</p>
+              </div>
+            </div>
+            
+            <div class="card">
+               <div class="card__image-container">
+                 <img class="card__image" src="/src/img/cities_0006_Costa-Rica.png" alt="">
+              </div>
+                
+                <svg class="card__svg" viewBox="0 0 800 500">
+            
+                  <path d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500" stroke="transparent" fill="#DFE8EC"/>
+                  <path class="card__line" d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400" stroke="pink" stroke-width="3" fill="transparent"/>
+                </svg>
+              
+               <div class="card__content">
+                 <h1 class="card__title">Costa Rica</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolor praesentium at quod autem omnis, amet eaque unde perspiciatis adipisci possimus quam facere illo et quisquam quia earum nesciunt porro.</p>
+              </div>
+            </div>
+            
+            <div class="card">
+               <div class="card__image-container">
+                 <img class="card__image" src="/src/img/cities_0000_Ibiza.png" alt="">
+              </div>
+                
+                <svg class="card__svg" viewBox="0 0 800 500">
+            
+                  <path d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500" stroke="transparent" fill="#DFE8EC"/>
+                  <path class="card__line" d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400" stroke="pink" stroke-width="3" fill="transparent"/>
+                </svg>
+              
+               <div class="card__content">
+                 <h1 class="card__title">Ibiza</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolor praesentium at quod autem omnis, amet eaque unde perspiciatis adipisci possimus quam facere illo et quisquam quia earum nesciunt porro.</p>
+              </div>
+            </div>
+            
+            <div class="card">
+               <div class="card__image-container">
+                 <img class="card__image" src="/src/img/cities_0001_Barsalonia.png" alt="">
+              </div>
+                
+                <svg class="card__svg" viewBox="0 0 800 500">
+            
+                  <path d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500" stroke="transparent" fill="#DFE8EC"/>
+                  <path class="card__line" d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400" stroke="pink" stroke-width="3" fill="transparent"/>
+                </svg>
+              
+               <div class="card__content">
+                 <h1 class="card__title">Barsalonia</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolor praesentium at quod autem omnis, amet eaque unde perspiciatis adipisci possimus quam facere illo et quisquam quia earum nesciunt porro.</p>
+              </div>
+            </div>
+            
+           
+
+          
+          
+
+          
+
+
+        </div>
+
+
+  </section>
+    <!------------------------------------- entry --------------------------------------->
+
+   <!-------------------------------------- footer --------------------------------------->
+   <section id="footer">
+   <footer id="contact">
+     <div class="container">
+       <div class="row">
+          
+              <div class="form col-ml-6">
+                <h2>Subscribe To Our Newsletter</h2>
+                <form>
+                  <input type="email" placeholder="Enter Your Email...." required>
+                  <button type="submit">SUBSCRIBE</button>
+                  
+                </form>
+                
+              </div>
+
+         <div class="col-md-6 ml-auto">
+           <img src="/src/img/social_0003_twitter.png" class="social-icons">
+           <img src="/src/img/social_0002_facebook.png"class="social-icons">
+           <img src="/src/img/social_0001_pentest.png" class="social-icons">
+           <img src="/src/img/social_0000_snapchat.png"class="social-icons">
+         </div>
+
+
+       </div>
+       
+
+     </div>
+     
+   </footer>
+   <div class="copy-right">
+     <small > Copyright @ 2019, Designed by Digital Stars</small>
+     
+   </div>
+   </section>
+  <!-------------------------------------- scripts--------------------------------------->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
