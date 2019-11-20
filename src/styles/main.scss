@@ -157,13 +157,13 @@ img {
   position: relative;
   background: #DFE8EC;
   width: 325px;
-  height: 75vh;
+  // height: 75vh;
   border-radius: 6px;
-  padding: 2rem;
+  padding: 1rem;
   color: #aaa;
   box-shadow: 0 .25rem .25rem rgba(0, 0, 0, 0.2),
     0 0 1rem rgba(0, 0, 0, 0.2);
-  overflow: hidden;
+  // overflow: hidden;
   margin-left: 8%;
   margin: 20px;
 
@@ -171,7 +171,7 @@ img {
 
 
   &__image-container {
-    margin: -2rem -2rem 1rem -2rem;
+    margin: -1rem -1rem 1rem -1rem;
   }
 
   &__line {
@@ -259,7 +259,29 @@ img {
     filter: blur(0);
   }
 }
+.btn {
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 35%;
 
+} 
+
+.messsge-card {
+  background-color: #DFE8EC;
+  width: 85%;
+  height: 100px;
+  border-radius: 5px;
+}
+
+#inputContainer {
+  padding: 20px;
+ 
+}
+// input {
+//   position: relative;
+//   margin: 5px;
+//   height: 100%;
+// }
 
 
 
