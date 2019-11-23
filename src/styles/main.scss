@@ -46,25 +46,17 @@ h3 {
 .hero img {
   height: 100%;
   width: 100%;
-}
-
-.logo {
-  width: 300px !important;
-  height: 300px !important;
-  position: absolute;
-  top: 30%;
-  left: 85%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
 
 }
+
 
 .centered {
   position: absolute;
-  top: 30%;
-  left: 60%;
-  transform: translate(-50%, -50%);
-  z-index: 3;
+  top: 25%;
+  left: 25%;
+  
+  
+  
 }
 
 
@@ -72,54 +64,83 @@ h3 {
 
 .centered h1 {
   color: white;
-  font-size: 150px;
+  font-size: 10vw;
+  // padding-top: 1em;
+  z-index: 3 !important;
+  
 }
 
 .sub {
   color: white;
-  font-size: 50px;
-
+  font-size: 2vw;
+  padding-top: 1em;
+  
 }
 
 .sub {
   position: absolute;
-  top: 41%;
-  left: 69%;
-  transform: translate(-50%, -50%);
-  z-index: 4;
+  top: 62%;
+  left: 40%;
+  // transform: translate(-50%, -50%);
+  z-index: 2 !important;
 }
 
+.hero .logo {
+ 
+  width: 20vw;
+  height: 20vw;
+  position: absolute; 
+  top: 10em;
+  left: 48em;
+  right: 49em;
+  z-index: 1 !important;
+
+}
 
 .pro {
 
   position: absolute;
-  left: 20px;
-  top: 320px;
+  left: 3%;
+  top: 46%;
   z-index: 2;
-  width: 220px !important;
-  height: 220px !important;
+  width:  12vw;
+  height: 12vw;
 }
 
 .user-block {
   background-color: #80B0BB;
-  position: relative;
-  width: 300px;
+  position: absolute;
+  width: 20vw;
+  height: 5vw;
   border-radius: 50px;
   text-align: right;
-  left: 90px;
-  top: -120px;
-  padding: 5px;
+  top: 53%;
+  left: 8%;
+  padding: .5em;
   padding-right: 20px;
-  line-height: 3px;
+  line-height: 1px;
   opacity: 90%;
   color: white;
   z-index: 1 !important;
+  font-size: 1vw;
 }
+
+// .profile-img h4 {
+
+
+// }
 
 .user-block p {
   text-align: right;
 }
 
+.profile {
+  align-content: center;
+}
+
+#paris {
+  margin-bottom: 20px;
+}
 // ----------------------------------------------------------------about------------------------------------------------
 
 #about p {
@@ -282,7 +303,13 @@ img {
 //   margin: 5px;
 //   height: 100%;
 // }
-
+.output {
+  background-color: #DFE8EC;
+  padding: 5px;
+  margin-bottom: 10px;
+  color: white;
+  border-radius: 10px;
+}
 
 
 

@@ -1,9 +1,9 @@
 import 'bootstrap';
 import '../styles/main.scss';
-import messageArea from './components/entry/entry';
+import cards from './components/cards/cards';
 
 const init = () => {
-  messageArea.addEvent();
+  cards.printCards(cards.locationCardData);
 };
 
 init();

@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 const locationCardData = [
 
   {
@@ -44,6 +46,17 @@ const printToDom = (toPrint, divId) => {
   document.getElementById(divId).innerHTML = toPrint;
 };
 
+const printToDom2 = (toPrint, divId) => {
+  document.getElementById(divId).innerHTML += toPrint;
+};
+
+const addSendEventListener = (e) => {
+  e.preventDefault();
+  const textElement = $(e.target).siblings()[0].value;
+  const diaryString = `<h3 class="output col-md 12 text-center">${textElement}</h3>`;
+  printToDom2(diaryString, 'output');
+};
+
 const printCards = (locationCard) => {
   let domString = '';
   for (let i = 0; i < locationCard.length; i += 1) {
@@ -66,8 +79,8 @@ const printCards = (locationCard) => {
               </div>
               <form class="message-container" id="add-message">
                    <div id="inputContainer">
-                   <textarea class="form-control centerTextArea" id='messageArea' placeholder="type entry here"></textarea>
-                   <button class="btn btn-dark" id='send-button'>Send</button>
+                   <textarea class="form-control centerTextArea textBox" placeholder="type entry here"></textarea>
+                   <button class="btn btn-dark send-button">Send</button>
                    </div>
                </form>
             </div>
@@ -76,9 +89,11 @@ const printCards = (locationCard) => {
   }
 
   printToDom(domString, 'card-place');
+  $('body').on('click', '.send-button', addSendEventListener);
 };
 
-printCards(locationCardData);
+
+// printCards(locationCardData);
 
 
 // cont entries = [];
@@ -87,3 +102,5 @@ printCards(locationCardData);
 // const printToDom = (toPrint, divId) => {
 //   document.getElementById(divId).innerHTML = toPrint;
 // };
+
+export default { printCards, locationCardData };
