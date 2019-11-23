@@ -22,7 +22,7 @@ const locationCardData = [
   },
   {
     image: '/src/img/cities_0006_Costa-Rica.png',
-    location: 'Costa Rico',
+    location: 'Costa Rica',
     info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolor praesentium at quod autem omnis, amet eaque unde persp.',
     id: 'location-4',
   },
